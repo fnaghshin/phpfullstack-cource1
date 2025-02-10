@@ -4,7 +4,7 @@ require_once 'database_connect.php';
 
 if(isset($_GET['id'])) {
     $id = $_GET['id'];
-    $sql_query = "SELECT * FROM `user`  WHERE `id`>$id";
+    $sql_query = "SELECT * FROM `user`  WHERE `id`=$id";
 
     $result = $link->query($sql_query);
 
