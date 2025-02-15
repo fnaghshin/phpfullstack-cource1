@@ -14,3 +14,5 @@ for($i=100;$i<=300;$i++) {
     $result = $link->query($sql_query);
 
 }
+
+
